@@ -10,8 +10,7 @@ import {
 
 import { Palette } from './color'
 import Vibrant from './vibrant'
-
-import clone = require('lodash/clone')
+import { clone } from 'lodash'
 
 export default class Builder {
   private _src: ImageSource

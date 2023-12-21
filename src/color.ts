@@ -1,6 +1,6 @@
 import { Filter } from './typing'
 import { rgbToHsl, rgbToHex } from './util'
-import filter = require('lodash/filter')
+import { filter } from 'lodash'
 
 export type Vec3 = [number, number, number]
 
